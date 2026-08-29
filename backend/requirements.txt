@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlalchemy>=2.0
+pydantic>=2.6
+# Optional, only needed if RECOVERAI_RAZORPAY_MODE=live_test
+razorpay>=1.4
+# Optional, only needed if RECOVERAI_DIAGNOSIS_MODE uses the LLM path
+anthropic>=0.40
+
+anthropic
+razorpay
